@@ -1,0 +1,5 @@
+[dev]
+slave1
+
+[prod]
+slave2
