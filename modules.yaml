@@ -1,0 +1,11 @@
+---
+- name: working with playbooks
+  hosts: dev
+  tasks:
+     - name: working with sample playbook of creating a file
+       file:
+         path: /tmp/test1
+         owner: root
+         group: root
+         mode: '0755'
+         state: touch
