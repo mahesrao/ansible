@@ -1,6 +1,6 @@
 ---
 - name: working with playbooks
-  hosts: dev
+  hosts: all
   tasks:
      - name: working with sample playbook of creating a file
        file:
